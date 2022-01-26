@@ -348,9 +348,9 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '这么弱？梨宝讨厌你！';
-        if (score <= 99) return '这点分还不给梨宝上舰？';
-        if (score <= 149) return '宝贝好强！梨宝爱你！';
+        if (score <= 49) return '太少了吧，老成让你再练练';
+        if (score <= 99) return '还能多敲几下老成吗';
+        if (score <= 149) return '老成头都被敲晕了';
         if (score <= 199) return '您';
         return '人？';
     }
